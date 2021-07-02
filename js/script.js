@@ -17,15 +17,7 @@ const app = new Vue(
                     this.mailList.push(result.data.response);
                     }
                 );
-                
             }
-
-            console.log(this.mailList);
-            
-
-        },
-
-
-        methods:{}
+        }
     }
 );
