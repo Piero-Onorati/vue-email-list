@@ -24,17 +24,12 @@
 
     <div id="app" class="container">
 
-        <div class="mail-list-container" >
+        <h1><i class="fas fa-address-book"></i>Email List</h1>
+        <div class="mail-list-container" >  
             <ul >
                 <li v-for="(mail, index) in mailList" :class="(index % 2 == 0)? violet : darkViolet" v-if="mailList.length == 10"> <i class="fas fa-envelope"></i>Email adress: <a href="#">{{mail}}</a></li>
             </ul>
-
         </div>
-
-        
-
-
-
 
     </div>
 
