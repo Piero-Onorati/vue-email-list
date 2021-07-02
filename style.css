@@ -37,8 +37,29 @@ body{
     list-style: none;
     width: 100%;
     padding: 20px; 
+    border-bottom: 1px solid #545e73; 
 }
 
+.mail-list-container ul li:first-child{
+    border-top: 1px solid #545e73;
+
+}
+
+.mail-list-container ul li i{
+    margin: 0 30px;
+}
+
+.mail-list-container ul li a{
+    color:#545e73;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.mail-list-container ul li a:hover{
+    font-weight: bold;
+}
+
+/* Javascript classes */
 .violet{
     background-color: white;
 }
