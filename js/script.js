@@ -2,7 +2,9 @@ const app = new Vue(
     {
         el: '#app',
         data:{
-            mailList:[]
+            mailList:[],
+            violet: 'violet',
+            darkViolet: 'dark-violet',
         },
 
         mounted: function(){
